@@ -73,14 +73,7 @@ function App() {
     <>
       
       <div className="FormularioPrincipal">
-      <div className='LogoContainer'>
-        <img
-          src="yo-contento.png"
-          alt="Mi Logo"
-          style={{ maxWidth: "200px", height: "auto" }}
-        />
-      </div>
-      
+        
         <ToDoCounter completed={completedTodos} total={totalTodos} />
 
         <TodoSearch searchValue={searchValue} setsearchValue={setsearchValue} />
